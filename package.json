@@ -1,0 +1,54 @@
+{
+    "name": "pltenjin",
+    "displayName": "Tenjin (Perl)",
+    "description": "VS Code support for Tenjin (Perl) Template syntax",
+    "version": "1.0.0",
+    "publisher": "Eitz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Eitz/vscode-pltenjin"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "license": "MIT",
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "tenjin",
+        "pltenjin",
+        "perl",
+        "template"
+    ],
+    "icon": "logo.png",
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "pltenjin",
+                "aliases": [
+                    "Tenjin",
+                    "tpl"
+                ],
+                "extensions": [
+                    ".plhtml",
+                    ".tpl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pltenjin",
+                "scopeName": "text.html.pltenjin",
+                "path": "./syntax/plTenjin.tmLanguage"
+            }
+        ]
+    },
+    "dependencies": {
+    }
+}
