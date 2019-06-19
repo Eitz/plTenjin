@@ -2,8 +2,8 @@
     "name": "pltenjin",
     "displayName": "Tenjin (Perl)",
     "description": "VS Code support for Tenjin (Perl) Template syntax",
-    "version": "1.0.0",
-    "publisher": "Eitz",
+    "version": "1.0.1",
+    "publisher": "Capy",
     "repository": {
         "type": "git",
         "url": "https://github.com/Eitz/vscode-pltenjin"
